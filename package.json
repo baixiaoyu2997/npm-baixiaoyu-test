@@ -1,0 +1,27 @@
+{
+  "name": "npm-baixiaoyu-test",
+  "version": "1.0.0",
+  "description": "从0创建npm包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx babel src/ --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baixiaoyu2997/npm-baixiaoyu-test.git"
+  },
+  "keywords": [],
+  "author": "baixiaoyu <bxy2997@sina.com> https://baixiaoyu2997.github.io/",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baixiaoyu2997/npm-baixiaoyu-test/issues"
+  },
+  "homepage": "https://github.com/baixiaoyu2997/npm-baixiaoyu-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7"
+  }
+}
